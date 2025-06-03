@@ -63,20 +63,14 @@
             "domain_strategy": "",
             "flow": "",
             "packet_encoding": "",
-            "server": "104.18.15.19",
-            "server_port": 2095,
+            "server": "157.230.17.102",
+            "server_port": 46883,
             "tag": "proxy",
             "transport": {
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "0530.vauggcod.workers.dev"
-                },
-                "max_early_data": 2560,
-                "path": "/",
-                "type": "ws"
+                "type": "grpc"
             },
             "type": "vless",
-            "uuid": "c01d6d82-6714-461c-82e1-7b3d0c8f6af8"
+            "uuid": "8404a0cc-9f9a-446c-81ca-7e304b1a68df"
         },
         {
             "tag": "direct",
